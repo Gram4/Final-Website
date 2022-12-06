@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+
+    <link rel="icon" type="image/xcon" href="favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+   
+    <meta name=”viewport” content="width=device-width", initial-scale=1.0”>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+        *{font-family: 'Libre Baskerville', serif;}
+       
+        .header{position:relative;
+                display:flex;
+                border:solid 2px black;
+                background-color:#7ed6df;
+                margin-bottom:10px;
+                
+            }
+
+            .faviconlogo{
+                border:solid 2px black;
+                border-radius:100px;
+                right:0px;
+                position:absolute;
+                margin-right:3px;
+                margin-left:3px;
+                margin-top:6px;
+                margin-bottom:0px;
+                padding-right:0px;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+            }
+
+            .title{
+                flex:10;
+                border:none 0px black;
+                margin-right:0px;
+                margin-left:0px;
+                margin-top:0px;
+                margin-bottom:0px;
+                padding-right:0px;
+                padding-left:20px;
+                padding-top:2px;
+                padding-bottom:3px;
+                font-size:24pt;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+                }
+
+            .navbar{position:absolute;
+                float:right;
+                flex:4.5;
+                border-bottom:solid 0px black;
+                right:43px;
+                margin-right:0px; 
+                           
+                margin-bottom:0px;
+                
+                padding-right:0px;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                }
+            
+            .current {
+                box-shadow: 0px -15px 300px -20px #ffbe76 inset;
+                border-bottom:none 4px #6ab04c;
+                background-color: #f0932b;}
+
+            ul {list-style: none;
+                border: none;
+                display: inline-block;
+                padding-left: 0;
+                margin:0;
+                width:fit-content}
+            
+            li {float: left;}
+
+            li a{text-decoration:none;
+                background-color: #f0932b;
+                padding: 14px 16px;
+                color: white;
+                display:block;
+                text-align:center;
+                }
+            
+            li a:hover {background-color:#ffbe76}
+
+            .current {
+                box-shadow: 0px -15px 300px -20px #ffbe76 inset;
+                border-bottom:none 4px #6ab04c;
+                background-color: #f0932b;}
+
+            .button {background-color: #8f1b11;
+                color:white;    
+                border-radius:10;
+                border:none;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-right:8px;
+                padding-left:8px;
+                margin-right:20px;
+                margin-left:20px;
+                margin-right:15px;
+                border-radius: 10px;
+                cursor:pointer;}
+
+            .button2 {background-color: #43914d;
+                color:white;    
+                border-radius:30;
+                border:none;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-right:8px;
+                padding-left:8px;
+                margin-right:20px;
+                margin-left:20px;
+                margin-right:15px;
+                border-radius: 10px;
+                cursor:pointer;}
+                
+            .buttonbox{
+                position:relative;
+                padding-top:5px;
+                padding-left:20px;
+                padding-bottom:5px;
+            }
+
+            .footerword{
+                display:inline-block;
+                padding-right:20px;
+                
+            }
+
+            
+            
+            .bodycopy {
+                border:solid 2px black;
+                position:relative;
+                display:flex;
+                background-color: #dff9fb;
+                margin-bottom:10px;
+                
+            }
+
+            .box1 {
+            border:none 2px black;
+            flex:1;
+            position: relative;
+            
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scroll-padding-bottom: 0px;
+            scroll-padding-top:0px;
+            scroll-padding-left:0px;
+            margin:10px;
+            height:600px;
+            }
+
+            .webfake {
+            border:none 2px black;
+            position: relative;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scroll-padding-bottom: 0px;
+            scroll-padding-top:0px;
+            scroll-padding-left:0px;
+            object-fit:contain;
+            padding-top: 40px;
+            }
+
+            .box2 {
+            border:none 2px black;
+            flex:1;
+            position: relative;
+            height: 300px;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scroll-padding-bottom: 0px;
+            scroll-padding-top:0px;
+            scroll-padding-left:0px;
+            margin:10px;
+            height:600px;
+            }
+
+            .magazine {
+            border:none 2px black;
+            position: absolute;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scroll-padding-bottom: 0px;
+            scroll-padding-top:0px;
+            scroll-padding-left:0px;
+            padding-top:40px;
+            }
+
+            .bodytitle {
+                position:absolute;
+                padding-left: 10px;
+                border-bottom:none 2px black;
+                margin:10px;
+                margin-left:0px;
+                margin-right:0px;
+                margin-top:0px;
+                margin-bottom:10px;
+                padding-right:10px;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:10px;
+            }
+
+            .footer{
+                display:flex;
+                border:solid 2px black;
+                color:black;
+                margin-bottom:10px;
+                background-color: #f0932b;
+                padding: 10px;
+                
+            }
+
+            .buttonbox{
+                padding-top:10px;
+            }
+
+    </style>
+
+</head>
+
+
+<body>
+    <div class="header">
+        
+        <div>
+            <img class="faviconlogo" src="/favicon_io/favicon-32x32.png">
+        </div>
+
+        <div class="title">
+            <p class="title">Assorted Works</p>
+        </div>
+       
+        <div class="navbar">
+            <ul>
+                <li><a href="1AboutMe.html">About Me</a>
+                <li><a href="2Extracurricular.html">Extracurricular Life</a>
+                <li><a class="current" href="3Portfolio.html">Portfolio</a></li>
+            </ul>
+        </div>   
+        
+    </div>
+
+    
+    <div class="bodycopy">
+        
+        <div class="box1">
+    
+            <div class="bodytitle">
+                <p >Fake Website Design for COM 2200 at Elon</p>
+            </div>
+            
+            <div class="webfake">
+                <img src="webmockup.jpg" alt="fake website image" width="500px">
+            </div>
+        
+        </div>
+            
+
+        <div class="box2">
+            
+            <div class="bodytitle">
+                <p>Mock Magazine Cover Photography and Design Work</p>
+            </div> 
+            
+            <div class="magazine">
+                <img src="magazine.jpg" alt="fake magazine cover featuring photography and esign work by Gram brownlee and masthead by Rolling Stone" width="500px">
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        
+       <div class="buttonbox">
+        <p class="footerword">Plus, find my work with Elon News Network and Greenville360 here!</p>
+        <a href="https://www.elonnewsnetwork.com/staff/gram-brownlee" target="blank"><button class="button" type="button">ENN Page</button></a>
+        <a href="https://greenville360.com/author/gram-brownlee/" target="blank"><button class="button2" type="button">GVL360</button></a>
+        
+        </div>
+
+    </div>
+
+</div>
+    
+</body>
+
+</html>

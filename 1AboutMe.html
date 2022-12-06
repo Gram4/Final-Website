@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/favicon_io/site.webmanifest">
+    
+        <link rel="icon" type="image/xcon" href="favicon-32x32.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+
+        <title>About Gram</title>
+        <style>
+            
+            
+            @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+            *{font-family: 'Libre Baskerville', serif;}
+
+            .header{position:relative;
+                display:flex;
+                border:solid 2px black;
+                background-color:#7ed6df;
+                margin-bottom:10px;
+                
+            }
+
+            .faviconlogo{
+                border:solid 2px black;
+                border-radius:100px;
+                right:0px;
+                position:absolute;
+                margin-right:3px;
+                margin-left:3px;
+                margin-top:6px;
+                margin-bottom:0px;
+                padding-right:0px;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+            }
+
+            .title{
+                flex:10;
+                border:none 0px black;
+                margin-right:0px;
+                margin-left:0px;
+                margin-top:0px;
+                margin-bottom:0px;
+                padding-right:0px;
+                padding-left:20px;
+                padding-top:2px;
+                padding-bottom:3px;
+                font-size:24pt;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+                }
+
+            .navbar{position:absolute;
+                float:right;
+                flex:4.5;
+                border-bottom:solid 0px black;
+                right:43px;
+                margin-right:0px; 
+                           
+                margin-bottom:0px;
+                
+                padding-right:0px;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                }
+
+            ul {list-style: none;
+                border: none;
+                display: inline-block;
+                padding-left: 0;
+                margin:0;
+                width:fit-content}
+            
+            li {float: left;}
+
+            li a{text-decoration:none;
+                background-color: #f0932b;
+                padding: 14px 16px;
+                color: white;
+                display:block;
+                text-align:center;
+                }
+            
+            li a:hover {background-color:#ffbe76}
+
+            .current {
+                box-shadow: 0px -15px 300px -20px #ffbe76 inset;
+                border-bottom:none 4px #6ab04c;
+                background-color: #f0932b;}
+
+
+
+
+            .bodycopy{display:flex;
+                    border:none 2px black;   
+                    }
+
+            .portrait{flex:1;
+                border:solid 2px black;
+                background-color:black;
+                margin-right:0px;
+                margin-left:0px;
+                margin-top:0px;
+                margin-bottom:10px;
+                padding-right:10px;
+                padding-left:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+                }
+
+            .portraittext{
+                color:rgb(210, 210, 210);
+                right:10px;
+                font-size: 8pt;
+                text-align:right;
+                display:block;
+                margin-top:10px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                ;
+            }
+
+            .img{
+                    border:solid 2px white;
+                }
+
+            .about{flex:3;
+                border:solid 2px black; margin-right:10px;
+                background-color: #dff9fb;
+                margin-left:10px;
+                margin-right:0px;
+                margin-top:0px;
+                margin-bottom:10px;
+                padding-right:20px;
+                padding-left:20px;
+                padding-top:10px;
+                padding-bottom:10px;
+                }
+
+
+
+
+            .footer{display:flex;
+                border:none 2px black;
+                color:white;
+            }
+
+                .contact{flex:2;
+                border:solid 2px black;
+                background-color:#6ab04c;
+                margin-right:10px;
+                margin-left:0px;
+                margin-top:0px;
+                margin-bottom:10px;
+                padding-right:10px;
+                padding-left:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+                }
+
+                .music{flex:2;
+                border:solid 2px black;
+                background-color:#6ab04c;
+                margin-right:0px;
+                margin-left:0px;
+                margin-top:0px;
+                margin-bottom:10px;
+                padding-right:10px;
+                padding-left:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+                }
+
+                .button {background-color:#f0932b;
+                color:white;    
+                border-radius:10;
+                border:none;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-right:8px;
+                padding-left:8px;
+                margin-right:20px;
+                margin-left:20px;
+                margin-right:15px;
+                border-radius: 10px;
+                cursor:pointer;}
+            
+            .tweet-button {
+            background-color: rgb(45, 149, 214);
+            color:white;
+            padding-top:8px;
+            padding-bottom:8px;
+            padding-right:8px;
+            padding-left:8px;
+            margin-left:20px;
+            margin-right:20px;
+            border:none;
+            border-radius: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:lighter;
+            font-size:20px;
+            cursor:pointer;}
+               
+
+        </style>
+   
+    </head>
+    
+
+
+
+
+    <body>
+
+        <div class="header">
+            <div class="title">
+                <p class="title">All About Gram Brownlee</p>
+            </div>
+           
+            <div class="navbar">
+                <ul>
+                    <li><a class="current" href="1AboutMe.html">About Me</a>
+                    <li><a href="2Extracurricular.html">Extracurricular Life</a>
+                    <li><a href="3Portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>   
+
+            <div>
+                <img class="faviconlogo" src="/favicon_io/favicon-32x32.png">
+            </div>
+            
+        </div>
+
+
+        <div class="bodycopy">
+            <div class="portrait">
+                <img src="home-portrait.jpg" alt="Gram sitting in front of a Historic neighborhood dorm. Picture by Ryan Gibbons" width="100%">
+                <p class="portraittext">Portrait by Ryan Gibbons</p>
+            </div>
+            
+            <div class="about">
+                <p>Gram Brownlee is a sophomore at Elon University with an interest and declared major in Journalistic Editing and Political Science. He has worked in public service and has experience writing for mulitiple publications and participating in mock political conferences.
+                <br><br> In his free time, Gram likes to mountain bike, hike, and rock climb. He also plays board games, practices music, and writes a lot.
+                </p>
+                   
+                <p>When not at school, Gram lives in Greenville, South Carolina, where he has worked as a student poll manager at his local polling place during the 2020 election cycle.
+                    He worked behind the concessions counter at the Pavilion Rec Center in Greenville, SC, where he also worked watching over some of the rec facilities. 
+                    He also interned with Greenville360, a local entertainment and business blog. 
+                </p>
+
+                <p>Now that he is going to school at Elon, Gram spends most of his time studying, but also works for Elon's Event Support Staff and 
+                    Elon's student news oranization, Elon News Network.
+                </p>
+               
+                
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="contact">
+                <p>Contact Me!<br>Phone: (864)386-3410 <br>Email: gbrownlee@elon.edu</p>
+                <button class="tweet-button"><a href="https://twitter.com/gram_brownlee" target="_blank">Twitter</a></button> 
+            </div>
+
+            <div class="music">
+                <p>One of my favorite songs, Someday Never Comes by Creedence Clearwater Revival:<hr></p>
+                <audio controls >
+                    <source src="CCR.mp3" width="30px">
+                </audio>
+                <br>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
